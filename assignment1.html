@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .monk{
+        margin : 20px;
+        border :2px solid black;
+
+    }
+
+</style>
+   
+</head>
+
+<body>
+    <h1 style="color:blue">register yourself</h1>
+    <form>
+        <p>Enter Your Details:</p>
+        <label for="User Name">User Name</label><br>
+        <input type="text" id = "User Name" name = "User Name"><br>
+        <label for="email">email</label><br>
+        <input type="email" id = "email" name = "email"><br>
+        <label for="pass">password</label><br>
+        <input type="password" id = "pass" name = "pass"><br>
+        <label for="dt">Date of Birth</label><br>
+        <input type="date" id = "dt" name = "dt"><br>
+        <label for="age">Age</label><br>
+        <input type="number" id = "age" name = "age"><br>
+        <hr>
+
+        <p>select you programming language level:</p>
+        <div class=" monk">
+        
+        <input type="radio" id="basic" name= "level">
+        <label for="basic">Basic</label><br>
+        <input type="radio" id="interm" name= "level">
+        <label for="interm">Intermediate</label><br>
+        <input type="radio" id="pro" name= "level">
+        <label for="pro">Expert</label><br>
+        </div>
+        <hr>
+        <p>choose your languages you are familiar with:</p>
+        <input type="checkbox" id="c" name= "language">
+        <label for="c">C</label><br>
+        <input type="checkbox" id="cpp" name= "language">
+        <label for="cpp">C++</label><br>
+        <input type="checkbox" id="py" name= "language">
+        <label for="py">python</label><br>
+        <input type="checkbox" id="java" name= "languages">
+        <label for="java">java</label><br>
+
+        <p hidden>you are succesfully submited:</p><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
